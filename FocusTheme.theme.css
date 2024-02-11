@@ -28,3 +28,12 @@ div[aria-label="Voice Channels (category)"] {
 .clickable_dbdd2a {
     display: none;
 }
+
+/* Hide server indicators */
+rect[id="b5480220-8804-49e3-b278-5c0874d32e3a-upper_badge_masks"] {
+    display: none;
+}
+
+.upperBadge_c7cfb3 {
+    display: none;
+}
