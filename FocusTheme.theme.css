@@ -28,13 +28,18 @@ div[aria-label="Voice Channels (category)"] {
     pointer-events: none;
 }
 
-/* Hide server indicators */
+/* Hide server indicators without leaving a hole in icons */
 rect[id="b5480220-8804-49e3-b278-5c0874d32e3a-upper_badge_masks"] {
     display: none;
 }
 
 .upperBadge_c7cfb3 {
     display: none;
+}
+
+div.wrapper__3af0b foreignObject[mask] {
+    mask: none !important;
+    clip-path: circle(50% at 50% 50%) !important;
 }
 
 /* Hide status indicators without leaving a hole in icons */
