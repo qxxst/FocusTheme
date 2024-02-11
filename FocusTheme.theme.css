@@ -36,3 +36,25 @@ rect[id="b5480220-8804-49e3-b278-5c0874d32e3a-upper_badge_masks"] {
 .upperBadge_c7cfb3 {
     display: none;
 }
+
+/* Hide status indicators without leaving a hole in icons */
+rect[mask="url(#svg-mask-status-online)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-idle)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-dnd)"] {
+    display: none;
+}
+
+rect[mask="url(#svg-mask-status-offline)"] {
+    display: none;
+}
+
+foreignObject[mask="url(#svg-mask-avatar-status-round-32)"] {
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
+}
