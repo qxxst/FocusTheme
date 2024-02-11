@@ -19,3 +19,12 @@ a[aria-label*="(voice channel)"] {
 .list__02208 {
     display: none;
 }
+
+div[aria-label="Voice Channels (category)"] {
+    display: none;
+    pointer-events: none;
+}
+
+.clickable_dbdd2a {
+    display: none;
+}
