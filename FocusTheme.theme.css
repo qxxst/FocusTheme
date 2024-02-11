@@ -6,3 +6,8 @@
 * @version 0.1
 * @authorLink https://github.com/qxxst
 */
+
+/* Hide voice channels */
+a[aria-label*="(voice channel)"] {
+    display: none;
+}
