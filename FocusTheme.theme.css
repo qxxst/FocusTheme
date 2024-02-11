@@ -7,26 +7,25 @@
 * @authorLink https://github.com/qxxst
 */
 
-/* Hide voice channels */
+/* Hide and disable voice channels */
 a[aria-label*="(voice channel)"] {
     display: none;
+    pointer-events: none;
 }
 
 .typeVoice_f4ba92 {
     display: none;
+    pointer-events: none;
 }
 
 .list__02208 {
     display: none;
+    pointer-events: none;
 }
 
 div[aria-label="Voice Channels (category)"] {
     display: none;
     pointer-events: none;
-}
-
-.clickable_dbdd2a {
-    display: none;
 }
 
 /* Hide server indicators */
