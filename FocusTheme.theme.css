@@ -38,8 +38,8 @@ rect[id="b5480220-8804-49e3-b278-5c0874d32e3a-upper_badge_masks"] {
 }
 
 div.wrapper__3af0b foreignObject[mask] {
-    mask: none !important;
-    clip-path: circle(50% at 50% 50%) !important;
+    mask: none;
+    clip-path: circle(50% at 50% 50%);
 }
 
 /* Hide status indicators without leaving a hole in icons */
