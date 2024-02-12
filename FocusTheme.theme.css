@@ -7,6 +7,9 @@
 * @authorLink https://github.com/qxxst
 */
 
+/* Import NoShop */
+@import url('https://cdn.jsdelivr.net/gh/qxxst/NoShop@main/NoShop.theme.css');
+
 /* Hide and disable voice channels */
 a[aria-label*="(voice channel)"] {
     display: none;
