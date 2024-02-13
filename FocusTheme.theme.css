@@ -7,7 +7,8 @@
 * @authorLink https://github.com/qxxst
 */
 
-/* Import NoShop */
+/* Import dependencies */
+@import url('https://cdn.jsdelivr.net/gh/qxxst/NoStatusStandalone@main/NoStatusStandalone.theme.css');
 @import url('https://cdn.jsdelivr.net/gh/qxxst/NoShop@main/NoShop.theme.css');
 
 /* Hide and disable voice channels */
