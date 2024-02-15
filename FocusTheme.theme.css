@@ -45,8 +45,3 @@ div.wrapper__3af0b foreignObject[mask] {
     mask: none;
     clip-path: circle(50% at 50% 50%);
 }
-
-/* Removes the "Active Now" section under Friends */
-.nowPlayingColumn_f5023f {
-    display: none;
-}
