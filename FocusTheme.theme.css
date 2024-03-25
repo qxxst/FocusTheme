@@ -27,11 +27,6 @@ a[aria-label*="(voice channel)"] {
     pointer-events: none;
 }
 
-div[aria-label="Voice Channels (category)"] {
-    display: none;
-    pointer-events: none;
-}
-
 /* Hide server indicators without leaving a hole in icons */
 rect[id="b5480220-8804-49e3-b278-5c0874d32e3a-upper_badge_masks"] {
     display: none;
